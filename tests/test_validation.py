@@ -34,6 +34,13 @@ class SyntaxGatewayTests(unittest.TestCase):
         schema=validate.load_json(ROOT/'schemas/challenge.schema.json')
         self.assertEqual([],validate.issues_for(manifest,schema))
 
+    def test_national_parent_manifest_valid(self):
+        manifest=validate.load_json(ROOT/'challenges/000_national_card_distribution.manifest.json')
+        schema=validate.load_json(ROOT/'schemas/challenge.schema.json')
+        self.assertEqual([],validate.issues_for(manifest,schema))
+        self.assertEqual('OPEN',manifest['authoritative_status'])
+        self.assertTrue(any('ZERO_INCREMENTAL_CASH_EXPENDITURE' == c for c in manifest['absolute_constraints']))
+
     def test_repo_has_no_prepopulated_participant_results(self):
         self.assertEqual([],list((ROOT/'submissions').glob('*.json')),'No real agent contributions exist before launch')
         rows=(ROOT/'logs/experiment_001_log.csv').read_text(encoding='utf-8').splitlines()

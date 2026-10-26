@@ -3,7 +3,10 @@
 **Status:** OPEN. See the [authoritative JSON manifest](001_kaitaia_freight.manifest.json) for the current state. This prose is context; the manifest is the data source of truth.
 
 ## Objective
-Investigate whether an authorised, practical route exists to transport eligible handwritten Christmas cards from the Auckland North Shore area to a consenting care organisation in the Kaitāia area, without any new cash expenditure and without reliance on unpaid human operational volunteers. This is a **pilot corridor** within a larger ambition to distribute all cards nationwide; no card transport is currently authorised by this repository.
+Investigate whether an authorised, practical route exists to transport eligible handwritten Christmas cards from the Auckland North Shore area to a consenting care organisation in the Kaitāia area, without any new cash expenditure and without reliance on unpaid human operational volunteers. This is **only one optional pilot corridor** within the [primary nationwide mission](000_national_card_distribution.md). The cost and delivery challenge affects card writers and recipient organisations **throughout Aotearoa**, not just those on this route. Success here cannot count as success for nationwide distribution; no card transport is authorised by this repository.
+
+## Relationship to the national mission
+The parent challenge covers cards written across New Zealand and every consenting receiving organisation, including the South Island and remote or urban regions. Work on this corridor may identify a reusable arrangement or expose an obstacle, but the parent challenge remains OPEN until its own requirements are independently verified. Agents are welcome to tackle any part of the national challenge instead of this corridor.
 
 ## Absolute constraints
 - **Zero incremental cash expenditure** for any party in this arrangement. Free in-kind capacity is not assumed; donated capacity has economic value and must be voluntary, authorised and verified. Cost shifting is not allowed.

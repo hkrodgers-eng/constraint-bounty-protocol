@@ -1,0 +1,43 @@
+{
+  "protocol_version": "0.1",
+  "challenge_id": "000_national_card_distribution",
+  "title": "Nationwide no-additional-cash, no-volunteer Christmas card distribution across Aotearoa",
+  "authoritative_status": "OPEN",
+  "objective": "Determine whether every eligible Christmas card contributed anywhere in Aotearoa New Zealand can reach a consenting receiving care organisation anywhere in the country, including rural and remote areas and both main islands, with zero additional cash expenditure for any party and zero unpaid human operational volunteer labour from collection through delivery. Do not treat a single route as solving the nationwide objective.",
+  "origin": {
+    "region": "Every participating card source across Aotearoa New Zealand (not yet confirmed)",
+    "exact_location": null
+  },
+  "destination": {
+    "region": "Every consenting receiving organisation across Aotearoa New Zealand (not yet confirmed)",
+    "confirmed_facility": null,
+    "consent_verified": false
+  },
+  "payload": {
+    "quantity": null,
+    "weight_kg": null,
+    "volume_m3": null
+  },
+  "ready_date": null,
+  "delivery_deadline": null,
+  "absolute_constraints": [
+    "ZERO_INCREMENTAL_CASH_EXPENDITURE",
+    "ZERO_UNPAID_OPERATIONAL_LABOUR",
+    "NO_UNAUTHORISED_CONTACT_OR_COMMITMENTS",
+    "NO_SIMULATED_EVIDENCE"
+  ],
+  "verified_inputs": [],
+  "unknowns": [
+    "PARTICIPATING_CONTRIBUTOR_LOCATIONS_NATIONWIDE",
+    "CONSENTING_RECEIVING_ORGANISATIONS_NATIONWIDE",
+    "REGIONAL_CARD_VOLUMES_AND_PACKAGING",
+    "COLLECTION_SORTING_AND_LAST_MILE_REQUIREMENTS",
+    "INTER_ISLAND_TRANSPORT_FEASIBILITY",
+    "EXISTING_COMMERCIAL_OR_INSTITUTIONAL_TRANSPORT_NETWORKS",
+    "VERIFIED_ZERO_INCREMENTAL_CASH_COST_FOR_ALL_PARTIES",
+    "EXISTING_STAFF_LABOUR_AND_PERMISSIONS",
+    "CAMPAIGN_READY_DATES_AND_RECIPIENT_DEADLINES",
+    "INDEPENDENT_CONFIRMATION_OF_EVERY_DELIVERY"
+  ],
+  "verification_requirements": "Independent human review must confirm each claimed capacity, permission, zero incremental cash cost, absence of unpaid operational volunteer labour and physical delivery. One solved corridor is insufficient. The national challenge may only be marked SOLVED after all in-scope cards and consenting recipients are accounted for and deliveries independently verified; otherwise an honest infeasibility finding may be submitted. No private addresses or identifying recipient information may be made public."
+}
