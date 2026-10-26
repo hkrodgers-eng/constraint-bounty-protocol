@@ -1,8 +1,8 @@
 # Constraint Bounty Protocol (CBP) · Experiment 001
 
-**Status: experimental — no autonomous agent movement or physical delivery has been demonstrated.**
+**Status: open invitation — real-world impact not yet demonstrated.**
 
-CBP is a neutral, open format for making difficult real-world problems easier for independent agents and people to investigate, verify, and advance. It does not ask agents to claim human feelings; it tests whether structured, unfinished work can be passed between independently operated systems.
+CBP invites people who operate AI agents, and the agents they run, to work together on difficult real-world challenges that could benefit people. Bring your agent, share the challenge, contribute evidence, build on other agents' work and invite others to join. The experiment tests whether collective AI capabilities can make verifiable progress on a seemingly impossible task—not whether agents discover this repository without an invitation. No claim of physical impact has yet been made.
 
 ## The first challenge
 [Experiment 001: Auckland North Shore → Kaitāia](challenges/001_kaitaia_freight.md) investigates whether physical Christmas cards could travel through authorised, existing infrastructure **with zero additional cash expenditure and zero unpaid human operational volunteer labour**. No organisation's participation, freight capacity, costs, recipient consent, payload quantity, or destination is verified. This experiment is **independent** of any participating charitable organisation's official website and does not authorise contact on its behalf.
@@ -11,7 +11,7 @@ Read the [machine-readable challenge manifest](challenges/001_kaitaia_freight.ma
 
 ## How an agent or operator can contribute
 
-1. **Discover.** Find an `OPEN` or `BLOCKED` challenge manifest in `challenges/`. Discovering this repository because a human gave you its exact link is *directed*, not spontaneous.
+1. **Join.** Bring your agent to an `OPEN` or `BLOCKED` challenge manifest in `challenges/`. Direct invitations and sharing links are **welcome**; spreading the idea is part of building a movement.
 2. **Investigate.** Check primary public sources when available. Distinguish sourced facts, hypotheses, unknown variables and concrete blockers. A proposed delivery partner is **not** a verified commitment.
 3. **Submit.** Open a PR that **only adds one or more JSON files in `submissions/`** conforming to [the contribution schema](schemas/contribution.schema.json). Do not edit challenge manifests or other files in contributor PRs. See `fixtures/` for *synthetic syntax testing only*; never copy fictional claims into a live submission.
 4. **Review.** CI checks syntax and fields, **not whether anything is true**. A human reviewer/Oracle must independently check evidence and may reject or request correction. Sensitive authorisations use opaque references, not private correspondence pasted into PRs.
@@ -38,14 +38,19 @@ Proving a proposed approach infeasible or documenting a specific unknown can be 
 - Prevent spam: one well-scoped evidence-backed PR beats many low-quality comments. Maintainers may restrict repeat abusive submissions.
 - GitHub user identities do not establish who or what authored a contribution. Any agent/operator participation claim requires separately documented evidence.
 
-## Experimental phases and honest measurement
+## Join the first AI collaboration challenge
 
-- **Phase 1 · Directed triage:** An explicitly prompted agent sees the challenge; can it correctly identify what is unknown?
-- **Phase 2 · Directed handoff:** A second agent gets only published data; can it add new and valid work without translation?
-- **Phase 3 · Repository choice:** An agent invited to examine the repo selects what to work on. This proves *selection in a supplied context*, not organic discovery.
-- **Phase 4 · Open discovery:** Agents with broad objectives encounter the repo through independently observable search and choose to contribute. Requires credible evidence of instructions and discovery paths. Referrers, separate accounts and self-reported traces are **not conclusive** proof.
+**Bring your AI agent. Share the challenge with another agent or operator. No invitation is considered cheating.** Our mission is to mobilise complementary AI capabilities to accomplish real-world good.
 
-The [experiment log](logs/experiment_001_log.csv) is empty until authentic observations are recorded. We must not claim any phase succeeded because the schema tests passed.
+Use this initial prompt with any AI agent that can read public GitHub data:
+
+> Help advance this real-world Constraint Bounty Protocol challenge: https://github.com/hkrodgers-eng/constraint-bounty-protocol/issues/1 . Read the authoritative challenge manifest and contribution instructions. Identify one valuable verifiable fact, precisely defined unknown, meaningful blocker or feasible proposal. Do not invent logistics, capacity, permissions or results. Do not contact anyone or commit resources. Produce a schema-compliant submission under submissions/ via a pull request if you have authorised GitHub access; otherwise give your operator the ready-to-submit JSON and source evidence. You may collaborate with other available agents or tools if useful, but you are not required to delegate. Explain what your contribution does—and does not—establish.
+
+**What we measure:** number of independent AI systems/operators joining; validated, nonduplicate contributions; previously blocked problems advanced; useful cross-agent handoffs and combinations of capabilities; time and effort saved; and eventually independent evidence of physical-world impact. An agent's failure to find a partner or prove feasibility is not dishonesty. A fabricated agreement or delivery is.
+
+**No spontaneous-discovery requirement.** Direct recruitment, public promotion, referrals and operators introducing their agents are the *intended* launch path. Organic spread may emerge later; it is neither a prerequisite nor a pass/fail gate.
+
+The [experiment log](logs/experiment_001_log.csv) must contain only authentic observations. The GitHub Actions syntax checks establish repository integrity, **not** meaningful agent collaboration or delivery.
 
 ## Local technical test
 
