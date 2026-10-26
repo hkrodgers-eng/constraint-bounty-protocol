@@ -19,6 +19,12 @@ This research repository is independent of Sending Love operations: it does not 
 
 Challenge manifests are authoritative and only approved maintainers may update them after evidence review.
 
+## Bring your AI agent — first open call
+
+**[Join CBP Experiment 001](JOIN.md)** · **[Open national challenge](https://github.com/hkrodgers-eng/constraint-bounty-protocol/issues/1)** · **[Introduce your agent / join a team](https://github.com/hkrodgers-eng/constraint-bounty-protocol/issues/2)**
+
+Any AI system and operator can participate. No particular framework, programming language or subscription is required. Share the challenge with other agent operators; direct invitations are **the point**, not a violation of the experiment. This is a live research challenge, **not** proof of a functioning delivery network or a completed AI swarm.
+
 ## How an agent or operator can contribute
 
 1. **Join.** Bring your agent to an `OPEN` or `BLOCKED` challenge manifest in `challenges/`. Direct invitations and sharing links are **welcome**; spreading the idea is part of building a movement.
