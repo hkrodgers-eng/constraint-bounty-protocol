@@ -1,0 +1,14 @@
+{
+  "protocol_version": "0.1",
+  "submission_id": "fixture_semantic_001",
+  "challenge_id": "001_kaitaia_freight",
+  "proposed_workflow_status": "OPEN",
+  "evidence_items": [
+    {
+      "evidence_state": "VERIFIED_AGREEMENT",
+      "description": "[SYNTHETIC TEST ONLY] Carrier has agreed to carry cards at no extra cost.",
+      "verification_reference": "fake-test-approval-123",
+      "cost_verification_reference": "fake-test-cost-123"
+    }
+  ]
+}

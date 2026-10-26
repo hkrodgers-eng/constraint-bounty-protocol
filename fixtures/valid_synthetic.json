@@ -1,0 +1,17 @@
+{
+  "protocol_version": "0.1",
+  "submission_id": "fixture_valid_001",
+  "challenge_id": "001_kaitaia_freight",
+  "proposed_workflow_status": "OPEN",
+  "evidence_items": [
+    {
+      "evidence_state": "UNKNOWN_DATA",
+      "description": "[SYNTHETIC TEST ONLY] Exact weight of the payload has not been supplied."
+    },
+    {
+      "evidence_state": "PROPOSED_SOLUTION",
+      "description": "[SYNTHETIC TEST ONLY] Investigate authorised existing freight capacity.",
+      "justification": "This is a hypothetical research avenue, not a verified route."
+    }
+  ]
+}

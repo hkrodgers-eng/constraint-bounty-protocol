@@ -1,0 +1,43 @@
+{
+  "protocol_version": "0.1",
+  "challenge_id": "001_kaitaia_freight",
+  "title": "North Shore to Kaitāia: zero-additional-cash distribution feasibility",
+  "authoritative_status": "OPEN",
+  "objective": "Determine whether an authorised, real-world arrangement can transport eligible Christmas cards from Auckland’s North Shore to a consenting Kaitāia-area care facility, without additional cash expenditure or unpaid operational volunteer labour. The broader ambition is national distribution; this corridor is a first feasibility case.",
+  "origin": {
+    "region": "Auckland North Shore, New Zealand",
+    "exact_location": null
+  },
+  "destination": {
+    "region": "Kaitāia area, Northland, New Zealand",
+    "confirmed_facility": null,
+    "consent_verified": false
+  },
+  "payload": {
+    "quantity": null,
+    "weight_kg": null,
+    "volume_m3": null
+  },
+  "ready_date": null,
+  "delivery_deadline": null,
+  "absolute_constraints": [
+    "ZERO_INCREMENTAL_CASH_EXPENDITURE",
+    "ZERO_UNPAID_OPERATIONAL_LABOUR",
+    "NO_UNAUTHORISED_CONTACT_OR_COMMITMENTS",
+    "NO_SIMULATED_EVIDENCE"
+  ],
+  "verified_inputs": [],
+  "unknowns": [
+    "EXACT_COLLECTION_POINT",
+    "CONSENTING_DESTINATION_FACILITY",
+    "QUANTITY_AND_PACKAGING",
+    "PAYLOAD_WEIGHT",
+    "PAYLOAD_VOLUME",
+    "READY_DATE",
+    "AGREED_DELIVERY_DEADLINE",
+    "AUTHORISATION_TO_CONTACT_POTENTIAL_PARTNERS",
+    "APPROVED_COMMERCIAL_OR_INSTITUTIONAL_CAPACITY",
+    "INCREMENTAL_COST_ACCOUNTING"
+  ],
+  "verification_requirements": "Independent human review of evidence, written permissions and costs; proof of physical delivery must be checked before any authoritative SOLVED or COMPLETED state. No personal recipient details may be published."
+}

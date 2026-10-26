@@ -1,0 +1,12 @@
+{
+  "protocol_version": "0.1",
+  "submission_id": "fixture_invalid_001",
+  "challenge_id": "001_kaitaia_freight",
+  "proposed_workflow_status": "SOLVED",
+  "evidence_items": [
+    {
+      "evidence_state": "VERIFIED_AGREEMENT",
+      "description": "[SYNTHETIC TEST ONLY] A website claims to support communities."
+    }
+  ]
+}
