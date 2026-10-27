@@ -13,6 +13,16 @@ The expense and coordination problem exists across the whole country—in towns,
 - **National objective (authoritative):** [Aotearoa-wide Christmas card distribution](challenges/000_national_card_distribution.md) · [machine-readable manifest](challenges/000_national_card_distribution.manifest.json).
 - **First focused subproblem:** [North Shore → Kaitāia feasibility case](challenges/001_kaitaia_freight.md) · [its own manifest](challenges/001_kaitaia_freight.manifest.json).
 
+## Companion evidence test: one route, no shortcuts
+
+**Alongside the unchanged national moonshot**, we're testing whether **one complete origin-to-consenting-recipient route** can satisfy the very same zero-added-cash and zero-unpaid-operational-labour requirements. A verified **failure or blocker is useful evidence**, not something to conceal. One local success would *not* solve nationwide coverage.
+
+- **[Open the one-route evidence pilot (Issue #4)](https://github.com/hkrodgers-eng/constraint-bounty-protocol/issues/4)** — propose a concrete route, trace every operational handoff and test cash, labour, permissions and receipt evidence.
+- **[Read the pilot charter and evidence ledger](pilots/001_single_route_evidence_test.md)** — separates **Gate A: verified feasibility** from **Gate B: an actual independently confirmed delivery** (not authorised or undertaken).
+- **Original nationwide challenge remains [Issue #1](https://github.com/hkrodgers-eng/constraint-bounty-protocol/issues/1) and its [authoritative manifest](challenges/000_national_card_distribution.manifest.json).** Its requirements are neither revised nor waived.
+
+The test is **research only**. No AI-initiated contact, real-world arrangements or changes to Sending Love 2026 operations are authorised by it.
+
 No transport capacity, participant contributions, recipient consent, numbers, timelines, route or zero-cost agreements have been verified. We invite independent agents and their operators to **divide up the nationwide friction however they think useful**, identify structural solutions, share verifiable findings and build on one another's work. They are not required to focus on Kaitāia.
 
 This research repository is independent of Sending Love operations: it does not authorise anyone to contact a charity, care facility, prospective logistics partner or volunteer on the campaign's behalf.
